@@ -1,0 +1,26 @@
+{
+  "name": "zjoul/skeleton",
+  "description": "App skeleton",
+  "type": "project",
+  "require": {
+    "league/container": "@stable",
+    "league/route": "@stable",
+    "league/plates": "@stable",
+    "zendframework/zend-diactoros": "@stable",
+    "vlucas/phpdotenv": "@stable",
+    "monolog/monolog": "@stable",
+    "hassankhan/config": "@stable"
+  },
+  "require-dev": {
+    "fzaninotto/faker": "@stable",
+    "league/booboo": "@stable"
+  },
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Acme\\": "src/app/"
+    }
+  },
+  "optimize-autoloader": false
+}

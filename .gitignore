@@ -1,0 +1,6 @@
+vendor/
+src/.env
+src/log/*
+!src/log/.gitkeep
+src/database/*
+!src/database/.gitkeep
